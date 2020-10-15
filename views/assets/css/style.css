@@ -1,0 +1,25 @@
+#result {
+    position: fixed;
+    z-index: 99;
+    width: 400px;
+    max-width: 400px;
+    bottom: 70px;
+    left: 300px;
+}
+  .bandeja-msg{
+    height: 650px;
+    max-height: 800px;
+    overflow-y: scroll;
+  }
+
+  .bandeja-msg::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-image: url(../img/fondo.png);
+    
+  }
+  
+  .bandeja-msg::-webkit-scrollbar-thumb {
+    background: #0894d1;
+  }
+
