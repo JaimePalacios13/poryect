@@ -180,7 +180,6 @@ class Utils
         </head>
         
         <body>
-        
             <div class='pre-loader'>
                 <span></span>
                 <span></span>
