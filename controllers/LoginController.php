@@ -26,16 +26,16 @@
                     $_SESSION["id_rol"] = $validar->getId_rol();
                     $_SESSION["nombre_usuario"] = $validar->getNombre_usuario();
                     $_SESSION["email"] = $validar->getEmail();
-                    Utils::loadAction("bandeja/entrada");
+                    Utils::loadActionn("bandeja/entrada");
                 }else {
                     $_SESSION["session"] = "";
-                    Utils::loadAction("");
+                    Utils::loadActionn("");
                 }
 
 
             }else {
                 
-                Utils::loadAction("");
+                Utils::loadActionn("");
             }
         }
 
@@ -49,7 +49,7 @@
             unset($_SESSION["method"]);
             session_destroy();
 
-            Utils::loadAction("");
+            Utils::loadActionn("");
         }
     }
     

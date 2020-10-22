@@ -113,6 +113,101 @@ class Utils
 
     public static function loadAction($url){
         echo"
+            <div class='d-flex justify-content-center mt-5 p-5'>
+                <div class='spinner-border mt-5' role='status' style='width: 15rem; height: 15rem;'>
+                    <span class='sr-only'>Loading...</span>
+                </div>
+            </div>
+            ";
+        /* echo"
+        <!DOCTYPE html>
+        <html lang='en'>
+        
+        <head>
+            <meta charset='UTF-8'>
+            <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+            <style type='text/css'>
+                body,
+        hmtl {
+            background:#2C5574;
+        }
+        
+        .pre-loader {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+        }
+        
+        .pre-loader span {
+            height: 2em;
+            width: 2em;
+            background: white;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 50%;
+            animation: wave 1.2s ease-in-out infinite;
+        }
+        
+        .pre-loader span:nth-child(1) {
+            left: -4.5em;
+            animation-delay: 0s;
+        }
+        
+        .pre-loader span:nth-child(2) {
+            left: -1.5em;
+            animation-delay: 0.1s;
+        }
+        
+        .pre-loader span:nth-child(3) {
+            left: 1.5em;
+            animation-delay: 0.2s;
+        }
+        
+        .pre-loader span:nth-child(4) {
+            left: 4.5em;
+            animation-delay: 0.3s;
+        }
+        
+        @keyframes wave {
+            0%,
+            75%,
+            100% {
+                transform: translateY(0) scale(1);
+            }
+            25% {
+                transform: translateY(2.5em);
+            }
+            50% {
+                transform: translateY(-2.5em) scale(1.1);
+            }
+        }
+            </style>
+        </head>
+        
+        <body>
+            <div class='pre-loader'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </body>
+        
+        </html>
+            "; */
+        echo "<script> window.location='".base_url."".$url."'; </script>";
+    }
+    public static function loadActionn($url){
+        /* echo"
+            <div class='d-flex justify-content-center mt-5 p-5'>
+                <div class='spinner-border mt-5' role='status' style='width: 15rem; height: 15rem;'>
+                    <span class='sr-only'>Loading...</span>
+                </div>
+            </div>
+            "; */
+        echo"
         <!DOCTYPE html>
         <html lang='en'>
         

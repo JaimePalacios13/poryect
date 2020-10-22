@@ -19,7 +19,7 @@
            
             if ($_SESSION["session"] == "" && $_SESSION["id_usuario"] == NULL && $_SESSION["id_rol"] == NULL && $_SESSION["nombre_usuario"] == NULL && $_SESSION["email"] == NULL) {
                
-                Utils::loadAction("");
+                Utils::loadActionn("");
             }else{
 
                 echo "
